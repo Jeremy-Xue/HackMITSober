@@ -4,6 +4,8 @@
 
     <uses-permission android:name="com.gm.vehicle.permission.READ_VIN"/>
     <uses-permission android:name="com.gm.vehicle.permission.READ_MOTION_DRIVING_BEHAVIOR"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
 
     <application
         android:name="com.gm.android.vehicle.support.MyGmApplication"
