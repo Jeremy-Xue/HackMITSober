@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gm.hellovehicle">
+
+    <uses-permission android:name="com.gm.vehicle.permission.READ_VIN"/>
+    <uses-permission android:name="com.gm.vehicle.permission.READ_MOTION_DRIVING_BEHAVIOR"/>
+
+    <application
+        android:name="com.gm.android.vehicle.support.MyGmApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="com.settings.gm.settingsaction"/>
+                <category android:name="com.settings.gm.settingscategory"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

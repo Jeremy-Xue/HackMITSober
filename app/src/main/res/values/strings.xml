@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Vehicle</string>
+    <string name="settings">Settings</string>
+    <string name="instructions">Other neat things you can do...\n - Turn the rotary in Mock Vehicle!\n - Set Drive Mode in Mock Vehicle!\n - Hit the home button, then Settings and check out this app\'s settings page!</string>
+</resources>
