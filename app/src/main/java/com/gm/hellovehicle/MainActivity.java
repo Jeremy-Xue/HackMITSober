@@ -156,7 +156,7 @@ public class MainActivity extends Activity implements MainActivityPresenter.View
                             handler.post(new Runnable() {
                                 public void run()
                                 {
-                                    textView.append(string);
+                                    textView.setText(string);
                                 }
                             });
                         }
